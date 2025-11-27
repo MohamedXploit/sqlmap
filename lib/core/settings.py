@@ -292,6 +292,8 @@ EXTREMEDB_SYSTEM_DBS = ("",)
 FRONTBASE_SYSTEM_DBS = ("DEFINITION_SCHEMA", "INFORMATION_SCHEMA")
 RAIMA_SYSTEM_DBS = ("",)
 VIRTUOSO_SYSTEM_DBS = ("",)
+HANA_SYSTEM_DBS = ("SYS","SYSTEM","PUBLIC","CS_DATA","SAPSR3","SAPHANAEXP","RECORDS","MDSYS","HANA_DI","HANA_DM")
+
 
 # Note: (<regular>) + (<forks>)
 MSSQL_ALIASES = ("microsoft sql server", "mssqlserver", "mssql", "ms")
